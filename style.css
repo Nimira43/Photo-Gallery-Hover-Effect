@@ -21,7 +21,7 @@ html {
 }
 
 .navigation {
-  width: 70rem;
+  width: 90rem;
   background-color: #101010;
   border-radius: 0.5rem;
   padding: 10rem;
@@ -46,6 +46,11 @@ html {
   padding: 3rem;
   background-color: #333;
 } 
+
+.nav-item span {
+  font-size: 1.1rem;
+  color: #bbb;
+}
 
 .nav-link {
   font-size: 2rem;
