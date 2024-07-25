@@ -25,6 +25,7 @@ html {
   background-color: #101010;
   border-radius: 0.5rem;
   padding: 10rem;
+  border: 0.1rem solid #222;
 }
 
 .nav-item {
@@ -33,6 +34,22 @@ html {
   align-items: center;
   padding: 3rem 4rem;
   border-bottom: 0.1rem solid #222;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.nav-item:first-child {
+  border-top: 0.1rem solid #222;
+}
+
+.nav-item:hover {
+  padding: 3rem;
+  background-color: #333;
+} 
+
+.nav-link {
+  font-size: 2rem;
+  color: #999;
 }
 
 .gallery {
