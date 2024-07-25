@@ -13,6 +13,28 @@ html {
   font-size: 62.5%;
 }
 
+.container {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #000;
+}
+
+.navigation {
+  width: 70rem;
+  background-color: #101010;
+  border-radius: 0.5rem;
+  padding: 10rem;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 4rem;
+  border-bottom: 0.1rem solid #222;
+}
+
 .gallery {
   display: none;
 }
