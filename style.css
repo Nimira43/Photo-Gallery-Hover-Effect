@@ -62,12 +62,14 @@ html {
   top: 10rem;
   width: 25rem;
   height: 20rem;
-  background-color: #444;
+  background-color: #666;
+  overflow: hidden;
+  pointer-events: none;
 }
 
 .images {
   height: 400%;
-  background-color: rgba(68, 68, 68, 0.3);
+  background-color: rgba(102, 102, 102, 0.3);
 }
 
 .images img {
