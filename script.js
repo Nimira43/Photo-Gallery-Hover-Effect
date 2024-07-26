@@ -8,5 +8,10 @@ navItems.forEach((navItem, i) => {
   
     const colour = navItem.getAttribute('data-colour')
     gallery.style.backgroundColor = `#${colour}`
+
+    let top = e.clientY 
+    let left = e.clientX
+    gallery.style.top = `${top}px`
+    gallery.style.left = `${left}px`
   })
 })
