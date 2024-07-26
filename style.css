@@ -83,3 +83,18 @@ html {
   object-fit: cover;
   padding: 3rem;  
 }
+
+.gallery-btn {
+  position: fixed;
+  background-color: #666;
+  width: 5rem;
+  aspect-ratio: 1;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #111;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.3s, left 0.1s, top 0.1s;
+}
