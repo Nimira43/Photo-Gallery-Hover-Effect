@@ -14,4 +14,10 @@ navItems.forEach((navItem, i) => {
     gallery.style.top = `${top}px`
     gallery.style.left = `${left}px`
   })
+  navItem.addEventListener('mouseover', () => {
+    gallery.style.transform = 'translate(-50%, -50%) scale(1)'
+  })
+  navItem.addEventListener('mouseleave', () => {
+    gallery.style.transform = 'translate(-50%, -50%) scale(0)'
+  })
 })

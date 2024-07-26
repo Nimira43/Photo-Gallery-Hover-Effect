@@ -64,7 +64,12 @@ html {
   height: 20rem;
   overflow: hidden;
   pointer-events: none;
-  transition: background-color 0.2s;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 
+    background-color 0.2s,
+    left 0.15s,
+    top 0.15s,
+    transform 0.3s;
 }
 
 .images {
